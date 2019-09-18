@@ -1,7 +1,11 @@
-body {background-color: red;}
+body {background-color: lightseagreen;}
 
-h1 {color: white;
+h1 {color: black;
   text-align: center;}
 
 p {font-family: verdana;
-  font-size: 20px;}
+  font-size: 19px;}
+p1 {font-family: Verdana;
+   font-size: 15xp;}
+li {font-family: verdana;
+   font-size: 15xp;}
