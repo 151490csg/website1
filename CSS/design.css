@@ -1,6 +1,12 @@
-body {background-color: lightseagreen;}
+body {
+    background-color: lightseagreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-h1 {color: black;
+
+
+h1 {color: rgb(255, 251, 251);
   text-align: center;}
 
 p {font-family: verdana;
