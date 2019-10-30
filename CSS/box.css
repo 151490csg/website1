@@ -10,35 +10,38 @@ body {
 }
 
 #balk {
-    background-color: white;
-    width: 80%;
+    background-color: red;
+    width: 100%;
     height: 15%;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
 
 }
 
 #container {
     background-color: green;
-    width: 80%;
-    height: 75%;
+    width: 100%;
+    height: 90%;
     display: flex;
 }
 
 #menu {
-    background-color: blue;
+    background-color: darkblue;
     width: 20%;
     height: 100%;
 
 }
 
 #berichten {
-    background-color: aquamarine;
+    background-color: red;
     width: 55%;
     height: 100%;
 
 }
 
 #plaatjes {
-    background-color: yellow;
+    background-color: darkblue;
     width: 25%;
     height: 100%;
 
@@ -46,11 +49,32 @@ body {
 
 .boodschap {
     background-color: white;
-    border: 12xp solid black;
-    border-radius: 20xp;
+    border: 12px solid darkblue;
+    border-radius: 20px;
     width: 80%;
     margin-left: 10%;
-    margin-top: 12xp;
-    padding: 12xp;
+    margin-right: 10%;
+    margin-top: 12px;
+    padding: 20px;
 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
 }
