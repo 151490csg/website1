@@ -56,6 +56,7 @@ body {
     margin-right: 10%;
     margin-top: 12px;
     padding: 20px;
+    color: black;
 
 }
 
@@ -65,7 +66,7 @@ ul {
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
-}
+  }
 
 li a {
   display: block;
@@ -102,12 +103,9 @@ li a:hover {
     text-align: center;
 }
 
-ul.a {
+ul.teamleden {
     list-style-type: circle;
     background: darkblue;
     text-align: center;
-}
-
-li.b {
-    display:inline-block;
+    margin-left: 30px;
 }
